@@ -6,7 +6,7 @@ import mapboxDirections from '@mapbox/mapbox-sdk/services/directions';
 import mapboxGeocoding from '@mapbox/mapbox-sdk/services/geocoding';
 import { getDocs, collection, query, where, limit } from 'firebase/firestore';
 import { db } from '../../public/firebase/firebase';
-import styles from '../styling/safestroute.module.css';
+import styles from '../styling/Safestroute.module.css';
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 
